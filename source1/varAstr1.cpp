@@ -5,7 +5,7 @@
  * @Author: Mark
  * @Date: 2020-12-10 15:34:55
  * @ListenEditors: Mark
- * @LastEditTime: 2020-12-10 16:08:06
+ * @LastEditTime: 2020-12-10 17:22:59
  */
 
 /*
@@ -31,7 +31,7 @@ using namespace std;
 int main()
 {
     // ----SectionI-----
-    char greeting[6] = {'H','e','l','l','o','\0'};  //注意: 其实，您不需要把null字符放在字符串常量的末尾。C++编译器会在初始化数组时，自动把'\0'放在字符串的末尾。
+    char greeting[6] = {'H','e','l','l','o','\0'};  //注意: 其实，您不需要把null字符放在字符串常量的末尾。{C++编译器}会在初始化数组时，自动把'\0'放在字符串的末尾。
 
     cout << "Greeting message: ";
     cout << greeting << endl;
